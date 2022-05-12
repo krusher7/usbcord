@@ -1,0 +1,31 @@
+body {
+  height: 1000px;
+  width: 1800px;
+  background-image: url("unknown.png");
+  background-color: #cccccc;
+  }
+  h1 {
+    color: #51b6e8;
+    text-shadow: 5px 10px 7px black;
+    position: absolute;
+    top: -35px;
+    left: 50px;
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", Helvetica, sans-serif;
+    font-size: 75px;
+  }
+  p {
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18;
+    text-decoration: underline;
+  }
+  ul {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }

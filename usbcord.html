@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" />
+        <title>USBcord</title>
+    </head>
+    <link rel="stylesheet" href="usb.css">
+<body>
+  <script>
+  Loop();
+  var  as = ["USBcord 💀", "USBcord 💀", "USBcord 💀", "USBcord 🤌 ", "USBcord 🤌 ", "USBcord 🤌 ", "USBcord 🥒 ", "USBcord 🥒 ", "USBcord 🥒 "];
+  function Loop(){
+  	for (let i = 0; i < 9; i++) {
+  		setTimeout(function() {
+  			document.title = as[i];
+  			if (i === as.length-1) { i = 0; Loop(); }
+  		}, 250 * i);
+  	}
+  }
+  </script>
+    <!-- Site navigation -->
+    <ul class="navbar">
+        <li><a href="https://www.uspcollege.ac.uk/" target="_blank">USP college</a>
+        <li><a href="https://youtu.be/ZFgHogvK5w4" target="_blank">Seevic inside look</a>
+        <li><a href="https://youtu.be/A0i9hmqciyM" target="_blank">Palmers inside look</a>
+        <li><a href="https://discord.gg/" target="_blank">USBcord</a>
+    </ul>
+    <!-- Main content -->
+    <h1>USP College</h1>
+    <p>Click the links below for more information:</p>
+
+</body>
+</html>
